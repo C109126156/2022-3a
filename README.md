@@ -17,22 +17,27 @@
 s = "Python Syntax Highlighting"
 
 ```
-1. one
-  ..*sdasd
-2. two
-  >>..1.one-2and
-  >>..2.two-2and
-4. three
-5. four
->>..*
->2.two
->>..*two
->3.three
 
->4.four
->>...* note 1
->>...* note 2
->>*** note 3
+```javascript
+var s = "Python Syntax Highlighting";
+alert (s);
+
+```
+
+**粗體**
+*斜體*
+~~刪除線~~
+
+1. a
+2. b
+  * ba
+3. c
+   1. ca
+   2. cb
+4. d
+   * da
+   * db
+***
 
 | Tables | Are | Cool |
 | :---------- | :-------------: | -------: |
