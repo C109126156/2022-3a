@@ -53,3 +53,14 @@ raw Markdown line up prettily. You can also use inline Markdown.
 | :---------- | :--------- | :------- |
 | *Still* | `renders` | **nicely** |
 | 1 | 2 | 3 |
+
+```mermaid
+
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
+            
