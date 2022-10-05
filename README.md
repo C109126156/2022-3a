@@ -57,10 +57,17 @@ raw Markdown line up prettily. You can also use inline Markdown.
 ```mermaid
 
 gantt
-    title A Gantt Diagram
+    title 甘特圖
     dateFormat  YYYY-MM-DD
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
+    Task 1           :a1, 2022-10-03, 1d
+    Task 2           :a2, after a1, 4d
+    Task 3           :a3, after a1, 17d
+    Task 4           :a4, after a2, 70d
+    Task 5           :a5, after a3, 10d
+    Task 6           :a6, after a4, 30d
+    Task 7           :a7, after a5, 25d
+    Task 8           :a8, after a5, 20d
+    Task 9           :a9, after a6, 25d
+    Task 10          :a10, after a7, 20d
+    Task 11          :a11, after a9, 25d
             
